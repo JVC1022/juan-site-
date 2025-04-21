@@ -1,1 +1,29 @@
 # juan-site-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Juan Valderrama</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo-small.png" class="logo" alt="Juan Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Hi, I’m Juan Valderrama</h1>
+    <p>I’m passionate about business, psychology, and creating impact. Welcome to my website!</p>
+    <img src="images/footer.jpg" alt="Juices" class="hero-img">
+  </main>
+
+  <footer>
+    <p>© 2025 Juan Valderrama</p>
+  </footer>
+</body>
+</html>
