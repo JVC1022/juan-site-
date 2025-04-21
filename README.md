@@ -27,3 +27,32 @@
   </footer>
 </body>
 </html>
+body {
+  background-color: #f0f4f8;
+  color: #333;
+}
+header, footer {
+  background-color: #004080;
+  color: #fff;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #004080;
+}
+<section class="projects">
+  <article>
+    <img src="images/project1.jpg" alt="Project 1" />
+    <h3>Project Title</h3>
+    <p>Brief description of the project, objectives, and outcomes.</p>
+  </article>
+  <!-- Repeat for other projects -->
+</section>
+<footer>
+  <p>Contact: <a href="mailto:juan@example.com">juan@example.com</a></p>
+  <p>Connect: 
+    <a href="https://linkedin.com/in/juanvalderrama">LinkedIn</a> | 
+    <a href="https://github.com/jvc1022">GitHub</a>
+  </p>
+</footer>
