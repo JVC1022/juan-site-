@@ -87,28 +87,29 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 50px 0;
-    background-image: url('hero.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
 }
 
 /* Hero Image */
 .hero-img {
-    max-width: 150px;
+    max-width: 120px;
     height: auto;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -138,50 +139,29 @@ section {
     margin-bottom: 20px;
 }
 
-.project-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+.projects ul {
+    list-style: none;
+    padding: 0;
 }
 
-.project-item {
-    background-color: #fff;
+.projects ul li {
+    margin: 15px 0;
+    padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
+    background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    max-width: 280px;
-    text-align: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.project-item:hover {
+.projects ul li:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.project-img {
-    width: 100%;
-    height: auto;
-    border-bottom: 1px solid #ddd;
-}
-
-.project-details {
-    padding: 15px;
-}
-
-.project-details strong {
-    display: block;
-    font-size: 1.2rem;
+.projects ul li strong {
     color: #333;
-    margin-bottom: 10px;
-}
-
-.project-details p {
-    font-size: 0.95rem;
-    color: #555;
-    line-height: 1.5;
+    font-size: 1.2rem;
 }
 
 /* About Section */
@@ -209,10 +189,11 @@ section {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.about p {
+.about-content p {
     font-size: 1.1rem;
     line-height: 1.6;
     color: #555;
+    text-align: justify;
 }
 
 /* Form Styles */
