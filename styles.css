@@ -54,6 +54,36 @@ nav ul li a:hover {
     color: #f4a261;
 }
 
+/* Main Header */
+.main-header {
+    background-color: #333;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.main-header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.main-header nav ul li a:hover {
+    color: #f4a261;
+}
+
 /* Hero Section */
 .hero {
     text-align: center;
@@ -94,37 +124,64 @@ section {
 
 /* Projects Section */
 .projects {
-    padding: 30px 20px;
+    padding: 40px 20px;
     background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
 }
 
 .projects h2 {
-    color: #444;
+    text-align: center;
+    color: #333;
     margin-bottom: 20px;
 }
 
-.projects ul {
-    list-style: none;
-    padding: 0;
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
-.projects ul li {
-    margin: 15px 0;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+.project-item {
     background-color: #fff;
-    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 280px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.projects ul li strong {
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-details {
+    padding: 15px;
+}
+
+.project-details strong {
+    display: block;
+    font-size: 1.2rem;
     color: #333;
+    margin-bottom: 10px;
 }
 
-.projects ul li:hover {
-    background-color: #f4f4f9;
-    border-color: #f4a261;
+.project-details p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
 }
 
 /* About Section Image */
