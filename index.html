@@ -1,46 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects | Juan Valderrama</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Valderrama | Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Hero Image */
+        .hero-img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-top: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* About Section Image */
+        .about-img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <img src="images/logo-small.png" class="logo" alt="Juan Logo">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <h1>Hi, I’m Juan Valderrama</h1>
-    <p>I’m passionate about business, psychology, and creating impact. Welcome to my website!</p>
-    <img src="images/footer.jpg" alt="Juices" class="hero-img">
-
-    <section class="projects">
-      <h2>My Projects</h2>
-      <article>
-        <img src="images/project1.jpg" alt="Project 1" />
-        <h3>Project Title</h3>
-        <p>Brief description of the project, objectives, and outcomes.</p>
-      </article>
-      <!-- Repeat for other projects -->
-    </section>
-  </main>
-
-  <footer>
-    <p>Contact: <a href="mailto:juan@example.com">juan@example.com</a></p>
-    <p>Connect: 
-      <a href="https://linkedin.com/in/juanvalderrama">LinkedIn</a> | 
-      <a href="https://github.com/jvc1022">GitHub</a>
-    </p>
-    <p>© 2025 Juan Valderrama</p>
-  </footer>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Hi, I'm Juan Valderrama</h1>
+            <p>Welcome to my personal website! I'm passionate about business, psychology, and creating impactful projects.</p>
+            <img src="images/Headshot.jpg" alt="Juan Valderrama's Headshot" class="hero-img">
+        </section>
+        <section class="about">
+            <h2>About Me</h2>
+            <img src="images/Headshot.jpg" alt="Juan Valderrama's Headshot" class="about-img">
+            <p>I am a professional with a background in business and psychology. I enjoy working on projects that make a difference, whether it's through data analysis, branding, or strategic planning.</p>
+        </section>
+        <section class="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li><strong>Charity Navigator Tableau Dashboard:</strong> A data visualization project to help donors make informed decisions.</li>
+                <li><strong>Startup Branding for Colombian English Course:</strong> Developed a branding strategy for a language learning startup.</li>
+                <li><strong>Business Strategy Reports:</strong> In-depth analysis of companies like Scout Motors and Disney.</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to visit the <a href="contact.html">Contact</a> page or reach out via email or GitHub.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Juan Valderrama | <a href="mailto:juan@email.com">juan@email.com</a> | <a href="https://github.com/jvc1022" target="_blank">GitHub</a></p>
+    </footer>
 </body>
 </html>

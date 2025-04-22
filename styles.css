@@ -4,6 +4,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #f4f4f9; /* Light background for better readability */
+    color: #333; /* Default text color */
 }
 
 a {
@@ -75,26 +77,45 @@ nav ul li a:hover {
 section {
     padding: 20px;
     text-align: center;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.projects article {
-    margin: 20px auto;
-    max-width: 600px;
-    text-align: left;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
+/* Projects Section */
+.projects {
+    padding: 30px 20px;
     background-color: #f9f9f9;
 }
 
-.projects article img {
-    max-width: 100%;
-    border-radius: 5px;
+.projects h2 {
+    color: #444;
+    margin-bottom: 20px;
 }
 
-.projects article h3 {
-    margin-top: 10px;
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects ul li {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projects ul li strong {
     color: #333;
+}
+
+.projects ul li:hover {
+    background-color: #f4f4f9;
+    border-color: #f4a261;
 }
 
 /* Footer */
@@ -102,12 +123,14 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
+    font-size: 0.9rem;
 }
 
 footer a {
     color: #f4a261;
     text-decoration: none;
+    margin: 0 5px;
 }
 
 footer a:hover {
@@ -127,5 +150,13 @@ footer a:hover {
 
     .hero p {
         font-size: 1rem;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .projects ul li {
+        padding: 10px;
     }
 }
