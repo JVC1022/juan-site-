@@ -1,66 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Juan Valderrama</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
     <h1>Contact Me</h1>
-    <p>Email: juan@email.com</p>
+    <p>If you'd like to get in touch, feel free to use the form below or reach out via email or GitHub.</p>
+    <section class="contact">
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <p>Email: <a href="mailto:juan@email.com">juan@email.com</a></p>
     <p>GitHub: <a href="https://github.com/jvc1022" target="_blank">github.com/jvc1022</a></p>
   </main>
 
   <footer>
     <p>© 2025 Juan Valderrama</p>
   </footer>
-</body>
-</html>
-<!-- Compare this snippet from styles.css: -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Fantasy Travels</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="packages.html">Packages</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="contact">
-            <h2>Contact Us</h2>
-            <form action="submit_form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>Contact us: info@fantasytravels.com</p>
-    </footer>
 </body>
 </html>
