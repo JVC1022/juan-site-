@@ -5,6 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects | Juan Valderrama</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .projects {
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        max-width: 900px;
+    }
+
+    .projects h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .project-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .project-item {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        max-width: 280px;
+        text-align: center;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .project-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .project-img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .project-details {
+        padding: 15px;
+    }
+
+    .project-details strong {
+        display: block;
+        font-size: 1.2rem;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .project-details p {
+        font-size: 0.95rem;
+        color: #555;
+        line-height: 1.5;
+    }
+  </style>
 </head>
 <body>
   <header>
